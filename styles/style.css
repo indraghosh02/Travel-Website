@@ -1,0 +1,38 @@
+*{
+    font-family: 'Merriweather', serif;
+font-family: 'Mulish', sans-serif;
+font-family: 'Open Sans', sans-serif;
+}
+
+header{
+   
+}
+.section-title{
+font-size: 2.25rem;
+font-weight: 800;
+
+}
+nav{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-left: 100px;
+   margin-right: 100px;
+}
+nav > ul{
+    display: flex;
+    display: inline-flex;
+    padding: 10px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 44px; 
+}
+nav li{
+    list-style: none;
+    
+   
+}
+nav li a{
+    text-decoration: none;
+    color: #424247;
+}
