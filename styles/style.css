@@ -16,8 +16,8 @@ nav{
    display: flex;
    justify-content: space-between;
    align-items: center;
-   margin-left: 100px;
-   margin-right: 100px;
+   margin-left: 170px;
+   margin-right: 170px;
 }
 nav > ul{
     display: flex;
@@ -35,4 +35,33 @@ nav li{
 nav li a{
     text-decoration: none;
     color: #424247;
+}
+.banner{
+    background-image:url(../Images/Group\ 13\ .png);
+    width: 1170px;
+    height: 500px;
+    border-radius: 16px;
+    margin-left: 170px;
+    margin-right: 170px;
+    justify-content: center;
+    background-repeat: off;
+    background-color: gray;
+    background-blend-mode: multiply;
+    border-radius: 16px;
+}
+.ban-head{
+    color: #FFF;
+font-size: 3.75rem;
+font-weight: 800;
+line-height: normal; 
+padding-top: 106px;
+padding-left: 287px ;
+}
+.ban-description{
+    width: 676px; 
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    padding-left: 270px;
+
 }
