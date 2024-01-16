@@ -157,6 +157,7 @@ height: 550px
         flex-direction: column;
       
     }
+    
     nav > ul > li{
         display: none;
     }
@@ -207,5 +208,27 @@ height: 550px
         margin-left: -50px;
     }
 
+    .tours{
+        display:flex ;
+       flex-direction: column;
+       width: 100%;
+    }
+    .tour-head{
+        font-size: 20px; 
+    }
+
+    .tour-details{
+        width: 430px;
+        margin-left: -145px;
+        font-size: 14px;
+    }
+    .tour-img{
+    width: 430px;
+    height: 442px;
+    flex-shrink: 0;
+    border-radius: 16px; 
+    margin-left: -145px;
+    margin-top: 60px;
+    }
 }
 
