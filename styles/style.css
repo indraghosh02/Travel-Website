@@ -341,10 +341,48 @@ font-size: 20px;
 }
 .letter{
     display: flex;
-    justify-content: space-between;
+    gap: 10px;
+    
 }
 .section6  div img{
     margin-right: 170px;
+}
+.image-content {
+    background-image: url(../Images/Rectangle\ 8\ \(1\).png);
+    width: 672px;
+    height: 422px;
+    position: relative;
+}
+
+.corner {
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    border-radius: 16px;
+    background: #FF5400;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+}
+
+.corner p {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.corner h2 {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
 }
 
 
