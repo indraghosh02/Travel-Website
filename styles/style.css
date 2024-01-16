@@ -202,6 +202,92 @@ margin-bottom: 50px;
         transform: translate(-50%, -50%);
         padding: 10px;
     }
+    .section4 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 100px;
+        margin-left: 150px;
+        margin-right: 100px;
+
+    }
+
+    .box {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 24px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+
+    }
+
+    .box img {
+        padding-top: 32px;
+        height: 64px;
+    }
+
+    .box1 {
+        width: 573px;
+        height: 284px;
+        border-radius: 16px;
+        border: 1px solid rgba(251, 181, 99, 0.20);
+        background: rgba(251, 181, 99, 0.05);
+        
+    }
+
+    .box2 {
+        width: 573px;
+        height: 284px;
+        border-radius: 16px;
+        border: 1px solid rgba(41, 206, 246, 0.20);
+        background: rgba(41, 206, 246, 0.05);
+    }
+
+    .box3 {
+
+        margin-top: 24px;
+        width: 573px;
+        height: 284px;
+        align-items: center;
+        border-radius: 16px;
+        border: 1px solid rgba(233, 68, 68, 0.20);
+        background: rgba(233, 68, 68, 0.05);
+    }
+
+    .box3 img {
+        padding-top: 32px;
+        
+        width: 72px;
+    }
+
+    h1 {
+        color: #131318;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 800;
+      
+        margin-bottom: 16px;
+    }
+
+    .box-content {
+        padding-left: 32px;
+        align-items: ;
+    }
+
+    .box-content>.c-description {
+        max-width: 486px;
+        color: #5A5A5D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+
+
+    }
+
 
 
 @media screen and (max-width: 600px) 
@@ -319,6 +405,86 @@ margin-bottom: 50px;
     font-weight: 400;
     
     }
+    .section4 .box{
+        display: block;
+        flex-direction: column;
+
+    }
+
+    .section4>.description {
+        text-align: center;
+    }
+
+    .box-content h4 {
+        text-align: left;
+    }
+   
+    .box1 {
+        /* max-width: 335px; */
+        width: 450px;
+        height: 289px;
+        border-radius: 16px;
+        border: 1px solid rgba(251, 181, 99, 0.20);
+        background: rgba(251, 181, 99, 0.05);
+        margin-bottom: 16px;
+        margin-left: -60px;
+        padding: 1%;
+    }
+
+    .box2 {
+        /* max-width: 335px; */
+        width: 450px;
+        height: 289px;
+        border-radius: 16px;
+        border: 1px solid rgba(41, 206, 246, 0.20);
+        background: rgba(41, 206, 246, 0.05);
+        margin-bottom: 16px;
+        margin-left: -60px;
+        padding: 1%;
+    }
+
+    .box3 {
+        /* max-width: 335px; */
+        width: 450px;
+        height: 289px;
+        border-radius: 16px;
+        border: 1px solid rgba(233, 68, 68, 0.20);
+        background: rgba(233, 68, 68, 0.05);
+        margin-bottom: 16px;
+        margin-left: -60px;
+        padding: 1%;
+    }
+
+
+
+    .box-content .c-description {
+        text-align: left;
+
+
+    }
+
+    .box img {
+        padding-top: 32px;
+        height: 48px;
+    }
+
+    .box3 img {
+        padding-top: 32px;
+        height: 48px;
+    }
+
+    h4 {
+        color: #131318;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+    
+
+
    
 }
 
