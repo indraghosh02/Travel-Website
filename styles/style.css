@@ -151,6 +151,38 @@ height: 550px
     border-radius: 8px;
     font-size: 16px;
 }
+.row{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+.section3{
+    margin-left: 170px;
+   margin-right: 170px;
+   margin-top: 150px;
+  
+}
+.des-head{
+    text-align: center;
+font-size: 40px;
+font-weight: 800; 
+}
+.des-pera{
+    width: 643px;
+    margin-left:250px ;
+}
+.section3 p{
+    color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+margin-bottom: 50px;
+}
+.des-pera{
+    width: 643px;
+}
+
 @media screen and (max-width: 600px) 
 {
     header{
