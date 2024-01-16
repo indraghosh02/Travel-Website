@@ -620,8 +620,49 @@ text-align: center;
         line-height: normal;
     }
     
-
-
+ .letter{
+    display: block;
+    flex-direction: column;
+   
+ }
+ .news{
+    margin-left: 0px;
+    margin-bottom: 20px;
+ }
+.footer{
+    width: 465px;
+height: 400px;
    
 }
+.ftitle img{
+    width: 28.724px;
+height: 33.516px; 
+}
+.ftitle h3{
+font-size: 21.543px;
+height: 27px;
+weight:120px;
+margin-top: 0px;
+}
+.foot-p p{
+    width: 287px;
+text-align: center;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+margin-left:-255px;
 
+}
+.footer-png{
+    width: 174.322px;
+height: 24px;
+margin-top: 0;
+margin-left:150px;
+}
+.footer hr{
+    width: 174.322px; 
+}
+
+
+
+}
